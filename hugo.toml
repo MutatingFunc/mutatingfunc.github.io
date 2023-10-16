@@ -3,8 +3,8 @@ languageCode = 'en-uk'
 title = 'Mutating Func'
 theme = 'PaperMod'
 
-menu:
-  main:
+menu =
+  main =
     - identifier: categories
       name: Categories
       url: /categories/
