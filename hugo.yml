@@ -1,10 +1,10 @@
-baseURL = 'https://mutatingfunc.github.io/website'
-languageCode = 'en-uk'
-title = 'Mutating Func'
-theme = 'PaperMod'
+baseURL: https://mutatingfunc.github.io/website
+languageCode: en-uk
+title: Mutating Func
+theme: PaperMod
 
-menu =
-  main =
+menu:
+  main:
     - identifier: categories
       name: Categories
       url: /categories/
