@@ -3,6 +3,10 @@ languageCode: en-uk
 title: MutatingFunc
 theme: PaperMod
 
+params:
+  defaultTheme: auto # dark, light
+  disableThemeToggle: true
+
 menu:
   main:
     - identifier: categories
