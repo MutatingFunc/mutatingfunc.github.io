@@ -68,6 +68,7 @@ pre:hover .copy-code {
 }
 
 :root {
-    font: -apple-system-short-subheadline
+    font: -apple-system-short-subheadline;
+    text-size-adjust: auto;
 }
 
