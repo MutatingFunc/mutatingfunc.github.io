@@ -6,4 +6,4 @@ tags: ["iPad", "Swift"]
 categories: ["Meta"]
 ---
 
-A quick & easy blog for whatever is on my mind. Expect Swift and iPad topics published from my iPad!
+A mutating and functional blog for whatever is on my mind. Expect Swift and iPad topics published from my iPad!
