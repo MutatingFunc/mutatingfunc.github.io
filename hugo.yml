@@ -12,7 +12,7 @@ params:
       url: "https://github.com/MutatingFunc"
   defaultTheme: auto # dark, light
   disableThemeToggle: true
-  ShowBreadCrumbs: true
+  ShowReadingTime: true
   ShowPostNavLinks: true
 
 menu:
