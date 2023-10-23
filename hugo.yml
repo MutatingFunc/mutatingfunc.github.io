@@ -4,6 +4,12 @@ title: MutatingFunc
 theme: PaperMod
 
 params:
+  homeInfoParams:
+    Title: "A blog by James"
+    Content: A mutating and functional blog for whatever is on my mind.
+  socialIcons:
+    - name: github
+      url: "https://github.com/MutatingFunc"
   defaultTheme: auto # dark, light
   disableThemeToggle: true
   ShowBreadCrumbs: true
