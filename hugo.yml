@@ -6,6 +6,8 @@ theme: PaperMod
 params:
   defaultTheme: auto # dark, light
   disableThemeToggle: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
 
 menu:
   main:
