@@ -2,11 +2,13 @@
 title: "iPadOS is better than macOS (for normal people)"
 date: 2023-10-31T23:34:00-00:00
 draft: false
-tags: ["iPad", "macOS"]
+tags: ["iPad", "Mac"]
 categories: ["Workflow"]
 ---
 
 I have opinions. 🐣
+
+I tend to prefer working on iPadOS to macOS. There's not any one thing, but a combination of things which just make it feel more comfortable to work with… It's fair to say macOS has features which iPadOS is lacking, but the reverse is also true!
 
 ## Windowing
 * There’s no weird distinction between maximised and fullscreen windows. (And let’s not get into how some apps don’t maximise, but [“zoom”](https://discussions.apple.com/thread/253459042))
@@ -21,7 +23,7 @@ I have opinions. 🐣
 * The cursor is a nice and symmetric circle, clearly defining the interaction to perform. Not a miniature cap for a zebra! 🦓
     * Don’t like the pointer effects? You can turn them off in Settings!
     * “Oh, but I need pixel-perfect precision” - No, you don’t. If you’re using your cursor for this, you’re doing it wrong. Apps have snap guides and text fields for this sort of thing.
-* Minimal window chrome, and windows adopt an iPhone-style compact layout when small!
+* Minimal window chrome, and windows adopt an iPhone-style compact layout when small! And this has real benefits for side-by-side multitasking on 4k/built-in displays.
 
 ## Power-user features
 * Shortcuts automations. Amazing utility on iPadOS, missing on macOS. Admittedly, 3rd party options are available on macOS for a price, or a good deal of time.
@@ -43,3 +45,7 @@ I have opinions. 🐣
 * Accessibility APIs so you can use window managers as a crutch for your subpar windowing experience.
 * Command line… Are you _sure_ you couldn’t do the same stuff just as fast with a UI designed for humans, theoretically? Keyboard shortcuts are generally faster than typing words.
 * \[Your niche use-case here]
+
+Overall, I often get the impression iPadOS is the platform people _choose_ to use, while macOS is the platform people _need_ to use. And it makes sense - iPads can be used like a Mac, docked to an external display with a mouse and keyboard, or like a tablet, or like a notepad with a stylus!That's 3 different modes of computing, and visionOS presents a fourth, and realistically people may prefer to work in any one of these.
+
+Hopefully as Apple's shared OS codebase matures, the need for separate devices running macOS to support the rest will continue to fade away! Because as computers start coming in all sorts of shapes and sizes, why should certain features like offline backups be tied to any particular kind of device and input method?
