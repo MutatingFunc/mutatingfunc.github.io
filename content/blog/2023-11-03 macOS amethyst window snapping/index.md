@@ -6,7 +6,7 @@ tags: ["iPad", "Mac", "Amethyst"]
 categories: ["Workflow"]
 ---
 
-In my [previous post]({{< relref "2023-10-31 iPadOS vs macOS" >}}) I discussed how our prefer a few aspects of iPadOS over macOS. In this post, I'll be discussing how to fix the big one - macOS's window positioning.
+In my [previous post]({{< relref "2023-10-31 iPadOS vs macOS" >}}) I discussed how I prefer a few aspects of iPadOS over macOS. In this post, I'll be discussing how to fix the big one - macOS's window positioning.
 
 ## The problem
 
