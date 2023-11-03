@@ -1,8 +1,8 @@
 ---
 title: "Fixing macOS windowing"
-date: 2023-10-31T23:34:00-00:00
+date: 2023-11-03T22:31:00-00:00
 draft: false
-tags: ["iPad", "Mac"]
+tags: ["iPad", "Mac", "Amethyst"]
 categories: ["Workflow"]
 ---
 
