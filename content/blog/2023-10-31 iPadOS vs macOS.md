@@ -22,15 +22,15 @@ I tend to prefer working on iPadOS to macOS. There's not any one thing, but a co
 * The animations are so good… ✨
 * The cursor is a nice and symmetric circle, clearly defining the interaction to perform. Not a miniature cap for a zebra! 🦓
     * Don’t like the pointer effects? You can turn them off in Settings!
-    * “Oh, but I need pixel-perfect precision” - No, you don’t. If you’re using your cursor for this, you’re doing it wrong. Apps have snap guides and text fields for this sort of thing.
-* Minimal window chrome, and windows adopt an iPhone-style compact layout when small! And this has real benefits for side-by-side multitasking on 4k/built-in displays.
+    * “Oh, but for what I do I need pixel-perfect precision” - No, you don’t. If you’re using your cursor for this, you’re doing it wrong. Apps have snap guides and text fields for this sort of thing.
+* Minimal window chrome, and windows adopt an iPhone-style compact layout when small! And this has real benefits for side-by-side multitasking with many windows on 4k/built-in displays.
 
 ## Power-user features
-* Shortcuts automations. Amazing utility on iPadOS, missing on macOS. Admittedly, 3rd party options are available on macOS for a price, or a good deal of time.
+* Shortcuts automations. Amazing utility on iPadOS, missing on macOS. Admittedly, 3rd party options are available on macOS for a price, and a fair bit of research & discovery time.
     * What are automation triggers good for? Try pairing dark mode with Do Not Disturb for use in lectures, making your text size larger at night, or playing a startup chime when connecting your external display! 🎵
 * iPadOS’s share menu has useful options like “Copy” and “Save to Files”. It’s also a powerhouse when loaded with custom-made Shortcuts.
-    * On macOS, you sometimes have to break context to save content from an app to the filesystem, or depending on the app you may have to add it to the filesystem to get it into a Shortcut!
-* Native iPhone apps. But all of them, with touch, not like in macOS where 99% of developers opt-out and many of the rest don’t work.. macOS just has variations on windowing and spaces
+    * On macOS, you sometimes have to break context to save content from an app to the filesystem via copy & paste, or depending on the app you may have to add it to the filesystem to get it into a Shortcut!
+* Native iPhone apps. But all of them, with touch, not like in macOS where 99% of developers opt-out and many of the rest don’t work..
 
 ## Hardware
 * Rear-facing camera, good for grabbing the diagram from a slide when taking notes!
@@ -46,6 +46,8 @@ I tend to prefer working on iPadOS to macOS. There's not any one thing, but a co
 * Command line… Are you _sure_ you couldn’t do the same stuff just as fast with a UI designed for humans, theoretically? Keyboard shortcuts are generally faster than typing words.
 * \[Your niche use-case here]
 
-Overall, I often get the impression iPadOS is the platform people _choose_ to use, while macOS is the platform people _need_ to use. And it makes sense - iPads can be used like a Mac, docked to an external display with a mouse and keyboard, or like a tablet, or like a notepad with a stylus!That's 3 different modes of computing, and visionOS presents a fourth, and realistically people may prefer to work in any one of these.
+I've delibrately left out the menu-bar here. iPadOS's keyboard shortcuts overlay serves a similar purpose. The menu bar has some benefits, but it's also a good way to have undiscoverable functionality - out of sight, out of mind.
+
+Overall, I often get the impression iPadOS is the platform people _choose_ to use, while macOS is the platform people _need_ to use. And it makes sense - iPads can be used like a Mac, docked to an external display with a mouse and keyboard, or like a tablet, or like a notepad with a stylus! That's 3 different modes of computing, and visionOS presents a fourth, and realistically people may prefer to work in any one of these.
 
 Hopefully as Apple's shared OS codebase matures, the need for separate devices running macOS to support the rest will continue to fade away! Because as computers start coming in all sorts of shapes and sizes, why should certain features like offline backups be tied to any particular kind of device and input method?
