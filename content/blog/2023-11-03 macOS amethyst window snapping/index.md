@@ -28,13 +28,13 @@ Swish is probably the window manager I've had the most success with, but I've ne
 
 ### Amethyst
 
+There's another category of window manager - automatic tiling window managers. This is the only kind of solution which doesn't present an extra step every time you open a window, instead attempting to improve on default window behaviour.
+
 ---
 
 {{< youtube yM03W1vWj28 >}}
 
 ---
-
-There's another category of window manager - automatic tiling window managers. This is the only kind of solution which doesn't present an extra step every time you open a window, instead attempting to improve on default window behaviour.
 
 [Amethyst](https://github.com/ianyh/Amethyst/releases) is one example - windows are automatically arranged according to your choice of a wide range of layout rules. These include a large center window with columns either side, a left-hand primary window with a stack on the right, and even a hands-off "Floating" window layout which disables tiling entirely. It even lets you pull standalone windows out to ‘float’ them, and you can drag windows between ‘slots’ and even resize them, all using the native window interactions. It's free, and open source, so anyone can add more layouts!
 
