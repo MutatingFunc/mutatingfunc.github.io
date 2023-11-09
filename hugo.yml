@@ -4,6 +4,8 @@ title: MutatingFunc
 theme: PaperMod
 
 params:
+  mainSections:
+    - blog
   homeInfoParams:
     Title: "A blog by James"
     Content: A mutating and functional blog for whatever is on my mind.
