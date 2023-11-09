@@ -12,7 +12,7 @@ In my [previous post]({{< relref "2023-10-31 iPadOS vs macOS" >}}) I discussed h
 
 The fundamental means of positioning windows in macOS has never really received a rethink since the inception of windowing in the early days of the OS. It's designed for screens with big pixels, and as pixels have gotten smaller it's become increasingly fiddly to keep windows from being an untidy mess.
 
-{{< video src="macOS multiwindow" title="Arranging windows on macOS Sonoma" >}}
+{{< video src="macOS multiwindow" alt="Arranging windows on macOS Sonoma" >}}
 
 ![The problem](macOS%20-%20the%20problem.png)
 
@@ -30,11 +30,7 @@ Swish is probably the window manager I've had the most success with, but I've ne
 
 There's another category of window manager - automatic tiling window managers. This is the only kind of solution which doesn't present an extra step every time you open a window, instead attempting to improve on default window behaviour.
 
----
-
 {{< youtube yM03W1vWj28 >}}
-
----
 
 [Amethyst](https://github.com/ianyh/Amethyst/releases) is one example - windows are automatically arranged according to your choice of a wide range of layout rules. These include a large center window with columns either side, a left-hand primary window with a stack on the right, and even a hands-off "Floating" window layout which disables tiling entirely. It even lets you pull standalone windows out to ‘float’ them, and you can drag windows between ‘slots’ and even resize them, all using the native window interactions. It's free, and open source, so anyone can add more layouts!
 
@@ -44,7 +40,7 @@ Enter iPadOS 16 and Stage Manager…
 
 ## iPadOS window management
 
-{{< video src="iPadOS multiwindow" title="Arranging windows on iPadOS 17" >}}
+{{< video src="iPadOS multiwindow" alt="Arranging windows on iPadOS 17" >}}
 
 Using Stage Manager on iPadOS is a breath of fresh air. No longer do I have to fiddle with pixel-perfect window positions or sizes, because here windows snap to an invisible grid when other windows are nearby. Yet I still have total flexibility to arrange windows how I like, because _I never needed this interaction to be pixel-perfect_ - having things neatly align is more valuable.
 
@@ -84,8 +80,8 @@ And if dragging or resizing a window can be a trigger for Amethyst to reflow the
 
 So couldn't a custom-made layout act like the Amethyst's freeform "Floating" layout, but just nudge windows ever so slightly so that they always align with an invisible, ~64pt grid?
 
-{{< video src="macOS+Amethyst multiwindow 3-way" title="Creating window layouts on the fly is a breeze" >}}
+{{< video src="macOS+Amethyst multiwindow 3-way" alt="Creating window layouts on the fly is a breeze" >}}
 
 Yes, yes it could. And it's glorious.
 
-{{< video src="macOS+Amethyst multiwindow" title="macOS with a helping hand from Amethyst" >}}
+{{< video src="macOS+Amethyst multiwindow" alt="macOS with a helping hand from Amethyst" >}}

@@ -1,0 +1,6 @@
+figure {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-top: thin var(--tertiary) solid;
+	border-bottom: thin var(--tertiary) solid;
+}
