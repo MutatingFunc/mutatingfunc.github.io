@@ -85,3 +85,5 @@ So couldn't a custom-made layout act like the Amethyst's freeform "Floating" lay
 Yes, yes it could. And it's glorious.
 
 {{< video src="macOS+Amethyst multiwindow" alt="macOS with a helping hand from Amethyst" >}}
+
+[Check out the PR for updates!](https://github.com/ianyh/Amethyst/pull/1604)
