@@ -371,7 +371,6 @@ private struct ContentView_Previews: View {
 
 // Entry point for app, single page showcase app, in-app showcase listing, etc
 
-
 struct ShowcaseEntry: View {
     var body: some View {
         ContentView_Previews(showControlPanel: true)
@@ -409,3 +408,50 @@ struct DataView: View {
 ---
 
 Give it a try, and let me know what you think!
+
+---
+
+## An aside - View composition
+
+You might struggle with the above if you use a pattern where your View Model provides or manages the lifetime of child View Models, and now find yourself passing 20 dependencies a View doesn't need, just so it can make its child Views, and those child Views can make their own child Views, etc…
+
+The solution? Inject the view, not its dependencies.
+
+```swift
+
+// View
+
+struct ContentView<TextGeneratorType: TextGenerator, ContentSubview: View>: View {
+    
+    var textGenerator: TextGeneratorType // Generic param - may have sub-models, may be used in property wrappers
+    var ioDoohickey: any IODoohickey // No sub-models or property wrappers possible
+    @ViewBuilder var contentSubview: () -> ContentSubview
+    
+    var body: some View {
+        VStack {
+            contentSubview()
+            Text(textGenerator.outputText)
+            Button("Do thing") {
+                Task {
+                    await ioDoohickey.submitRequest()
+                }
+            }
+        }
+    }
+}
+
+// Entry point for app, single page showcase app, in-app showcase listing, etc
+
+struct DataView: View {
+    @Bindable var contentManager: ContentManager
+    
+    var body: some View {
+        ContentView(textGenerator: contentManager, ioDoohickey: contentManager) {
+            ContentSubview(funkyDoodle: contentManager.funkyDoodle)
+        }
+    }
+}
+
+```
+
+This works for more effectively composing backend models too.
