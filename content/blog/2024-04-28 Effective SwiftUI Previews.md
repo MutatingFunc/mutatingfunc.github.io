@@ -8,7 +8,7 @@ categories: ["Coding"]
 
 Previews are a handy tool for getting a live look at all possible states of a view, and I often finding myself creating loads without thinking.
 
-Yet I find people often have trouble getting previews to work nicely. This is my attempt to break down my approach for those people. If you've never heard of app 'architecture' or a 'view model', feel free to skip to the end.
+Yet I find people often have trouble getting previews to work nicely. This is my attempt to break down my approach for those people.
 
 If you use TCA, which ties architecture very deeply to the view, my best advice is to look to their docs on the topic.
 
