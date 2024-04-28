@@ -415,7 +415,7 @@ Give it a try, and let me know what you think!
 
 You might struggle with the above if you use a pattern where your View Model provides or manages the lifetime of child View Models, and now find yourself passing 20 dependencies a View doesn't need, just so it can make its child Views, and those child Views can make their own child Views, etc…
 
-The solution? Inject the view, not its dependencies.
+The solution? Inject the subview, not its dependencies.
 
 ```swift
 
