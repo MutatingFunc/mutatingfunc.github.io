@@ -417,14 +417,15 @@ You might struggle with the above if you use a pattern where your View Model pro
 
 The solution? Inject the subview, not its dependencies.
 
+(This rule works for more effectively composing backend models too!)
+
 ```swift
 
 // View
 
 struct ContentView<TextGeneratorType: TextGenerator, ContentSubview: View>: View {
     
-    var textGenerator: TextGeneratorType // Generic param - may have sub-models, may be used in property wrappers
-    var ioDoohickey: any IODoohickey // No sub-models or property wrappers possible
+    // […]
     @ViewBuilder var contentSubview: () -> ContentSubview
     
     var body: some View {
@@ -453,5 +454,3 @@ struct DataView: View {
 }
 
 ```
-
-This works for more effectively composing backend models too.
