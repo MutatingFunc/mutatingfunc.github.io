@@ -1,7 +1,7 @@
 ---
 title: "Effective SwiftUI Previews"
-date: 2024-04-28T00:00:00-00:00
-draft: true
+date: 2024-04-28T21:00:00-00:00
+draft: false
 tags: ["Swift"]
 categories: ["Coding"]
 ---
@@ -406,4 +406,6 @@ struct DataView: View {
 
 ```
 
-Hopefully this helps!
+---
+
+Give it a try, and let me know what you think!
