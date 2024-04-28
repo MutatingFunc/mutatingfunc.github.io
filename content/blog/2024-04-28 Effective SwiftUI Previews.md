@@ -196,7 +196,7 @@ struct DataView: View {
 
 See, that wasn't so bad, was it? Our view model is still there, and look, our previews are so much cleaner than they were!
 
-ContentView feels a bit like an extension of this new "DataView" at the moment, but this is actually a crucial step - we're moving our dependency injection closer to the entry point of our app. For more details on the benefits of this kind of approach, see ["Achieving Loose Coupling with Pure Dependency Injection and the Composition Root Pattern" by Simon B. Støvring, from SwiftLeeds 2023](https://www.youtube.com/watch?v=7zIKzOF6010).
+ContentView feels a bit like an extension of this new "DataView" at the moment, but this will be less so by the time we're done. This is actually a crucial step, if you consider ContentView in this example represents our entire UI heirarchy - we're moving our dependency injection closer to the entry point of our app. For more details on the benefits of this kind of approach, see ["Achieving Loose Coupling with Pure Dependency Injection and the Composition Root Pattern" by Simon B. Støvring, from SwiftLeeds 2023](https://www.youtube.com/watch?v=7zIKzOF6010).
 
 However, there are some flaws with this approach - our views will start needing a whole lot of parameters as we start to scale the things we need to access. Let's solve that next.
 
@@ -303,13 +303,13 @@ struct DataView: View {
 
 And just like that, we have the basics of reuse between previews, and we've even spun up some more because we can!
 
-Notice that `ContentManager` conforms to both these protocols. This allows sharing of state between each our view's textGenerator and ioDoohickey, if for example our text is to update when we call `submitRequest()`. But because we're no longer tightly coupled, we could equally decompose `ContentManager` into two separate types if that sharing of state isn't needed, in fact it's encouraged with this pattern! Small views, and small models, it's a software architect's dream!
+Notice that `ContentManager` conforms to both these protocols. This allows sharing of state between each our view's textGenerator and ioDoohickey, which could be useful if we needed the text update when we call `submitRequest()`. But because we're no longer tightly coupled, we could equally decompose `ContentManager` into two separate types if that sharing of state isn't needed. In fact, it's encouraged with this pattern! Small views, and small models - it's a software architect's dream!
 
 But we can go one step further…
 
 ## PreviewProvider is dead. Long live PreviewProvider!
 
-By introducing a ContentView_Previews view (like we did in the days before macros), we begin to actively seek out more ways to use it! We just can't stop reusing our view over and over again!
+By introducing a `ContentView_Previews` view (like we did in the days before macros), we can clean up some of the repetition introduced in the last step, while opening up more options for ourselves.
 
 ```swift
 
@@ -405,6 +405,8 @@ struct DataView: View {
 
 ```
 
+This sort of approach begs us to actively seek out more ways to use it! We just can't stop reusing our view over and over again with subtly different configurations each time!
+
 ---
 
 Give it a try, and let me know what you think!
@@ -413,7 +415,7 @@ Give it a try, and let me know what you think!
 
 ## An aside - View composition
 
-You might struggle with the above if you use a pattern where your View Model provides or manages the lifetime of child View Models, and now find yourself passing 20 dependencies a View doesn't need, just so it can make its child Views, and those child Views can make their own child Views, etc…
+You might struggle with the above, if you use a pattern where your View Model provides or manages the lifetime of child View Models. Without the View Models hiding all those dependencies, you may now find yourself passing 20 dependencies a View doesn't need, just so it can make its child Views, and those child Views can make their own child Views, etc…
 
 The solution? Inject the subview, not its dependencies.
 
