@@ -204,7 +204,7 @@ However, there are some flaws with this approach - our views will start needing 
 
 To scale to many parameters, we're going to reintroduce View Models, but differently this time. Instead of being per-view, they'll simply group values we often need to use together. And instead of being a class, they'll be protocols, with only a Preview-prefixed mock defined alongside.
 
-Our view simply doesn't care about backend logic at all. Our backend types will have to conform and compose according to the needs of the View, not the other way around. If it comes to it, to conform to these protocols we may need new backend types, new layers of model, which is fine if you follow proper unit-testable practices.
+Note that this is just a mechanism for grouping related parameters. We can, and should, still fall back to basic data types as the parameters for our views, and we can mix and match the two approaches to passing data. Use of the environment is also on the table, and this is a great fit for logging services which are needed everywhere, or for passing data transparently through multiple levels of view - but effective use of the SwiftUI environment is a wider discussion.
 
 ```swift
 
@@ -304,6 +304,8 @@ struct DataView: View {
 And just like that, we have the basics of reuse between previews, and we've even spun up some more because we can!
 
 Notice that `ContentManager` conforms to both these protocols. This allows sharing of state between each our view's textGenerator and ioDoohickey, which could be useful if we needed the text update when we call `submitRequest()`. But because we're no longer tightly coupled, we could equally decompose `ContentManager` into two separate types if that sharing of state isn't needed. In fact, it's encouraged with this pattern! Small views, and small models - it's a software architect's dream!
+
+Our view simply doesn't care about backend logic at all under this model. Our backend types will have to conform and compose according to the needs of the View, not the other way around. If it comes to it, to conform to these protocols we may need new backend types, new layers of model, which is fine if you follow proper unit-testable practices.
 
 But we can go one step further…
 
