@@ -36,9 +36,9 @@ I fully expect Apple is working on Xcode for iPad, along the same lines as how t
 
 To begin, create a new app project! Expand the project navigator sidebar, and you're set. It's that easy!
 
-# The features
+# Features
 
-## The Editor
+## The editor
 
 Swift Playgrounds supports many of the features you'd expect from Xcode. You can add files, folders, supporting files, and package dependencies. `.xcasset` files are supported, but managed automatically and hidden from the UI. `Info.plist` files are also supported, but require a bit of setup (I'll get on to this later). App tint colours and icons can be customised manually.
 
