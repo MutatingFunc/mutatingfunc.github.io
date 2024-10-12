@@ -155,9 +155,9 @@ let package = Package(
 
 This configuration asserts that files for "MyPackage" will exist in a "MyPackage" folder (as defined by "path"), and the app files will exist in "MyPackage_TestApp". You will need to create each, move your SwiftUI files to the app folder, and ensure the new library folder contains at least one valid Swift file, to get the project building.
 
-While we can't get rid of the main app target entirely, here we're repurposing it as a mini-app for testing the key functionality of your framework. If your framework doesn't have much UI, you could even have the app display unit test results live in the previews area!
+While we can't get rid of the main app target entirely, here we're repurposing it as a mini-app for testing the key functionality of your library. If your library doesn't have much UI, you could even have the app display unit test results live in the previews area!
 
-Once you're happy with your framework, using your Git client of choice to push it up to Github, and add the Github repo as a dependency to your main app! If you prefer, you can even add the library target directly to your main app, to edit both in a single project.
+Once you're happy with your library, using your Git client of choice to push it up to Github, and add the Github repo as a dependency to your main app! If you prefer, you can even add the library target directly to your main app, to edit both in a single project.
 
 ## Upload to App Store Connect
 
@@ -179,13 +179,13 @@ The one I run into most often is the lack of breakpoints. While sometimes a cras
 
 Another limitation is the lack of support for targets and schemes, which are critical for supporting (native) unit tests and UI tests. This rules out using Playgrounds for certain extension types, where the best you'll get is moving most of the extension's code into a library.
 
-However, for unit tests with properly mocked dependencies, **previews** can be converted into a means to display unit test results, which has the added benefit of appearing contextually as you edit the file and displaying results live as you type. I've created a few small frameworks to support this which can be found on my Github, though I've not yet used them in earnest in a project.
+However, for unit tests with properly mocked dependencies, **previews** can be converted into a means to display unit test results, which has the added benefit of appearing contextually as you edit the file and displaying results live as you type. I've created a few small packages to support this which can be found on my Github, though I've not yet used them in earnest in a project.
 
 ## Simulators
 
 Swift Playgrounds does not support simulators. This is perhaps the most critical omission, but not for the reason you might think. You can test at most device sizes simply by running the app, and resizing the window using Stage Manager. This makes iPad the ideal environment for developing well-behaved, resizable apps.
 
-However, it's when it comes to a release that the lack of simulators reveals itself to be an issue. Good luck resizing a window to the pixel-perfect dimensions of a specific device for taking App Store screenshots! I've also created a small framework to work around this, which can take screenshots with the environment set to simulate specific device dimensions, safe area insets, and display scales, but unfortunately SwiftUI modals completely ignore the environment and do their own thing.
+However, it's when it comes to a release that the lack of simulators reveals itself to be an issue. Good luck resizing a window to the pixel-perfect dimensions of a specific device for taking App Store screenshots! I've also created a small package to work around this, which can take screenshots with the environment set to simulate specific device dimensions, safe area insets, and display scales, but unfortunately SwiftUI modals completely ignore the environment and do their own thing.
 
 ## Update schedule
 
