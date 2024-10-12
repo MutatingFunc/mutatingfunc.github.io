@@ -1,6 +1,6 @@
 ---
 title: "Getting started with Git - cloud storage for collaboration"
-date: 2024-XX-XXTXX:XX:00-00:00
+date: 2024-01-01T01:01:00-00:00
 draft: true
 tags: ["Git"]
 categories: ["Workflow"]
