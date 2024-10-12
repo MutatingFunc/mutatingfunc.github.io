@@ -12,7 +12,7 @@ In the last year, I've gone all-in on building apps using an iPad. I've never me
 
 This post should clear up what is and isn't possible when it comes to app development on iPad, and I hope to encourage others to give this a try too!
 
-For more on why my primary device is an iPad, see my post on [iPadOS vs macOS]({{< relref "2023-10-31 iPadOS vs macOS" >}}).
+I use my iPad hooked up to a keyboard, mouse, and monitor for most serious work, with both screens set to More Space. It's very much comparable to how most people would use their Mac. For more on why my primary device is an iPad, see my post on [iPadOS vs macOS]({{< relref "2023-10-31 iPadOS vs macOS" >}}).
 
 ![Working Copy & Swift Playgrounds](WorkingCopy+SwiftPlaygrounds.png)
 
