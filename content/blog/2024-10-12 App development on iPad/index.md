@@ -157,6 +157,8 @@ This configuration asserts that files for "MyPackage" will exist in a "MyPackage
 
 While we can't get rid of the main app target entirely, here we're repurposing it as a mini-app for testing the key functionality of your library. If your library doesn't have much UI, you could even have the app display unit test results live in the previews area!
 
+![Example library](Library.png)
+
 Once you're happy with your library, using your Git client of choice to push it up to Github, and add the Github repo as a dependency to your main app! If you prefer, you can even add the library target directly to your main app, to edit both in a single project.
 
 ## Upload to App Store Connect
