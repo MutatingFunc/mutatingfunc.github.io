@@ -96,7 +96,7 @@ additionalInfoPlistContentFilePath: "Info.plist"
 
 While the Package.swift file warns against manual editing, this is not an issue in practice for any version of Swift Playgrounds released to date.
 
-## Building Packages
+## Building packages
 
 It's also possible to build packages using Swift Playgrounds! This again requires some manual editing of the Package.swift.
 
