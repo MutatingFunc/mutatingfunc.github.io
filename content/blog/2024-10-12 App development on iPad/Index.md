@@ -14,7 +14,7 @@ This post should clear up what is and isn't possible when it comes to app develo
 
 For more on why my primary device is an iPad, see my post on [iPadOS vs macOS]({{< relref "2023-10-31 iPadOS vs macOS" >}}).
 
-![Working Copy & Swift Playgrounds](Working%20Copy%20&%20Swift%20Playgrounds.png)
+![Working Copy & Swift Playgrounds](WorkingCopy+SwiftPlaygrounds.png)
 
 # What is Swift Playgrounds?
 
