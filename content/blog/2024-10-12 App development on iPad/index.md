@@ -1,7 +1,7 @@
 ---
 title: "App development on iPad"
 date: 2024-10-12T00:00:00-00:00
-draft: true
+draft: false
 tags: ["Playgrounds", "Swift", "iPad"]
 categories: ["Workflow"]
 ---
