@@ -177,7 +177,7 @@ The one I run into most often is the lack of breakpoints. While sometimes a cras
 
 ## Targets
 
-Another limitation is the lack of support for targets and schemes, which are critical for supporting (native) unit tests and UI tests. This rules out using Playgrounds for certain extension types, where the best you'll get it moving most of the extension's code into a library.
+Another limitation is the lack of support for targets and schemes, which are critical for supporting (native) unit tests and UI tests. This rules out using Playgrounds for certain extension types, where the best you'll get is moving most of the extension's code into a library.
 
 However, for unit tests with properly mocked dependencies, **previews** can be converted into a means to display unit test results, which has the added benefit of appearing contextually as you edit the file and displaying results live as you type. I've created a few small frameworks to support this which can be found on my Github, though I've not yet used them in earnest in a project.
 
