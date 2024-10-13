@@ -1,6 +1,6 @@
 ---
 title: "App development on iPad"
-date: 2024-10-12T00:00:00-00:00
+date: 2024-10-12T20:00:00-00:00
 draft: false
 tags: ["Playgrounds", "Swift", "iPad"]
 categories: ["Workflow"]
@@ -26,7 +26,7 @@ Swift Playgrounds was, and still is, pitched as an educational tool by Apple. It
 
 ![Playgrounds Editor](PlaygroundsEditor.png)
 
-Since Swift Playgrounds 4, Apple introduced a new app project format across Playgrounds and Xcode, based on Swift Package Manager. A `Package.swift` file defines the structure of the entire project, similar to how one would declare a Swift Package. Unlike Swift Packages though, the whole project is bundled into a `.swiftpm` package format - for those unfamiliar, packages are folders dressed up to look like a file.
+Since Swift Playgrounds 4, Apple introduced a new app project format across Playgrounds and Xcode, based on Swift Package Manager. A `Package.swift` file defines the structure of the entire project, similar to how one would declare a Swift Package. Unlike Swift Packages though, the whole project is bundled into a `.swiftpm` bundle  - a folder dressed up to look like a file.
 
 I fully expect Apple is working on Xcode for iPad, along the same lines as how they've brought Final Cut and Logic Pro. However, for now, Swift Playgrounds is what we've got to work with.
 
