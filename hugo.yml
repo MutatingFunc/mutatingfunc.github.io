@@ -22,21 +22,20 @@ params:
 
 menu:
   main:
+    - identifier: search
+      url: /search/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
       weight: 40
 
 outputs:
