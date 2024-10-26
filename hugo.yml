@@ -24,22 +24,26 @@ params:
 
 menu:
   main:
+    - identifier: apps
+      name: Apps
+      url: /apps/
+      weight: 10
     - identifier: search
       name: Search
       url: /search/
-      weight: 10
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 20
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 40
     - identifier: archives
       name: History
       url: /archives/
-      weight: 40
+      weight: 50
 
 outputs:
   home:
