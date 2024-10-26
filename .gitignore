@@ -400,3 +400,4 @@ FodyWeavers.xsd
 # Custom
 /.hugo_build.lock
 /public/**
+.DS_Store
