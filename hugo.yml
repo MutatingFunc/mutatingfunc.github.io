@@ -37,7 +37,7 @@ menu:
       url: /tags/
       weight: 30
     - identifier: archives
-      name: Archives
+      name: History
       url: /archives/
       weight: 40
 
