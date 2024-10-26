@@ -4,6 +4,7 @@ title: MutatingFunc
 theme: PaperMod
 
 params:
+  ShowCodeCopyButtons: true
   mainSections:
     - blog
   homeInfoParams:
