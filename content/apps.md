@@ -1,7 +1,7 @@
 ---
-title: "James's Apps" # in any language you want
+title: "James's Apps"
 url: "/apps/"
-# summary: "search"
+excludeFromRSS: true
 ShowToc: true
 TocOpen: true
 ---
