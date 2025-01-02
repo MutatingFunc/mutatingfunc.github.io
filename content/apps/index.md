@@ -30,6 +30,19 @@ Editable file metadata currently includes Title, Album, Artist, Track and Disk N
 
 https://apps.apple.com/app/id1606367519
 
+# Shimmer Browser
+
+Easily navigate between a set of frequently accessed tabs!
+
+Tabs are synced via iCloud, and open using an in-app browser so all your passwords and blockers are available!
+
+Add your tabs to your homescreen with the widget!
+
+https://apps.apple.com/app/shimmer-browser/id6739163018
+
+![Shimmer Browser](Shimmer_Browser.jpeg)
+![Shimmer Widgets](Shimmer_Widgets.jpeg)
+
 # SimpleEdit
 
 A simple plain text editor built using SwiftUI.
