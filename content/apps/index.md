@@ -57,3 +57,5 @@ Features:
 * Switch between native iOS keyboard types (default, number pad, phone pad, URL, web search, Twitter, …).
 
 https://apps.apple.com/app/id1287562515
+
+![SimpleEdit](SimpleEdit.jpeg)
