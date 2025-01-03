@@ -9,7 +9,10 @@ params:
     - blog
   homeInfoParams:
     Title: "A blog by James"
-    Content: A mutating and functional blog for whatever is on my mind.
+    Content: |
+      Hi, I'm James! I write this blog and make a few [apps]({{< relref "apps" >}}).
+      
+      If you'd like to get in touch, use the links below.
   socialIcons:
     - name: github
       url: "https://github.com/MutatingFunc"
