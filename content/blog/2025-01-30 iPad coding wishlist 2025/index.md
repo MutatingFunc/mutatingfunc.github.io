@@ -30,9 +30,9 @@ So, I've put together a quick wishlist for what I want to see come to the iPad, 
 # iPad coding - for professionals
 
 * In-app purchases, subscriptions, and all the monetisation capabilities
-* Xcode branding and/or a commitment to actually updating whatever the leading iPad IDE is
+* Xcode branding, and/or a commitment to actually _updating_ whatever the leading iPad IDE is
 * Bug fixes
-* Build targets & testing support (can technically be worked around with previews)
+* Build targets (including tests support)
 * No seriously, ongoing regular bug fix updates
 * Breakpoints
 * Crash reports
@@ -43,11 +43,11 @@ So, I've put together a quick wishlist for what I want to see come to the iPad, 
 
 # iPad coding - nice-to-haves
 
-* Local app installation - can use Testflight as a workaround
+* Local app installation; nice-to-have because one can use Testflight as a workaround
 * Built-in git integration
 * Xcode Cloud
-* Private repo dependencies, for private code shared across multiple projects
-* Direct Package.swift editing
+* Support for dependencies in private repos
+* Direct Package.swift file editing
 
 # iPad coding - oh if you must
 
