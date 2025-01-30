@@ -1,7 +1,7 @@
 ---
 title: "My iPad coding wishlist for 2025"
 date: 2025-01-30T22:00:00-00:00
-draft: true
+draft: false
 tags: ["Playgrounds", "Swift", "iPad"]
 categories: ["Workflow"]
 ---
