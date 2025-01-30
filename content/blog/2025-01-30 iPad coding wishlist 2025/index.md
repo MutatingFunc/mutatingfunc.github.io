@@ -12,7 +12,7 @@ Last year, I developed and released [Medlied](https://apps.apple.com/app/id16063
 
 Unfortunately, this setup still has some holes which I ran into with my next project.
 
-First, Swift Playgrounds support for iOS 18 has failed to materialise. With the Swift Student Challenge only four days away, Apple has left iPad users without a way to try out the iOS 18 SDKs. SwiftPM projects edited in Xcode may no longer compile when reopened in Playgrounds, and [due to Swift limitations](https://forums.swift.org/t/do-we-need-something-like-if-available/40349), which have gone unaddressed on the basis that everyone using Swift uses Xcode, no amount of conditional compilation can actually work around the issue.
+First, Swift Playgrounds support for iOS 18 has failed to materialise. With the Swift Student Challenge only four days away, Apple has left iPad users without a way to try out the iOS 18 SDKs. Consequently, SwiftPM projects edited in Xcode may no longer compile when reopened in Playgrounds, and [due to Swift limitations](https://forums.swift.org/t/do-we-need-something-like-if-available/40349), which have gone unaddressed on the basis that everyone using Swift uses Xcode, no amount of conditional compilation can actually work around the issue.
 
 Second, for [Shimmer Browser](https://apps.apple.com/app/id6739163018), I knew I wanted it to be free to use, with a full unlock option. As Swift Playgrounds does not offer the in-app purchase capability flag (or maybe it does, but I'd be guessing at undocumented SwiftPM syntax), I couldn't continue building it purely in Swift Playgrounds.
 
