@@ -1,9 +1,9 @@
 ---
 title: "Breaking down Swift Playgrounds 4.6"
-date: 2025-01-31T11:00:00-00:00
+date: 2025-01-31T10:45:00-00:00
 draft: false
 tags: ["Playgrounds", "Swift", "iPad"]
-categories: ["Workflow"]
+categories: ["Coding"]
 ---
 
 Apple has released the [long-awaited](({{< relref "2025-01-30 iPad coding wishlist 2025" >}})) [Swift Playgrounds 4.6 update](https://apps.apple.com/app/id908519492)!
