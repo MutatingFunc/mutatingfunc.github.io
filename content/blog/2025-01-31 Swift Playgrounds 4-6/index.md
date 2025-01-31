@@ -36,7 +36,7 @@ The release notes claim this update includes bug fixes, but the most severe bugs
 
 ## Swift 6?
 
-New projects still make use of Swift tools version 5.9 by default. However, Swift 6 appears to be enabled globally, using partial concurrency checking mode.
+New projects still make use of Swift tools version 5.9 by default. The update uses the Swift 6 compiler, in Swift 5 language mode with partial concurrency checking.
 
 The following code compiles in the new IDE:
 
@@ -50,7 +50,7 @@ func typedThrows() throws(NSError) {
 }
 ```
 
-There is no in-app option to specify language version in the editor, but it is technically possible to edit the Package.swift manually to specify one. I'll be jumping all-in with Swift 6 going forward!
+There is no in-app option to specify language mode in the editor, but it is technically possible to edit the Package.swift manually to specify one. I've heard that Swift 6 mode will break full app previews for your project though, so use this with caution.
 
 Every learn-to-code template is still listed as “Swift 5.8 Edition”, but at least they've put in the work to update the “Playground” and “Book” templates listed right at the end though, which are listed as “Swift 5.9 Edition”.
 
