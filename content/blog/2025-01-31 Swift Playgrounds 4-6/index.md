@@ -28,6 +28,8 @@ The update also includes the new document browser demoed in June last year which
 
 The updated App Store screenshots also include a mysterious new toolbar item in the app editor, which looks like a set of books on a bookshelf. However, this button seems completely absent in the update itself! Is Apple withholding new features?
 
+Update: Turns out this is a button that appears when you use a tutorial template! You learn something new every day!
+
 ## “Bug fixes”
 
 The release notes claim this update includes bug fixes, but the most severe bugs like jumping to types directly using Open Quickly, or the typing into text fields in the previews area, are still broken, so I'm not sure what they claim to be fixing here.
@@ -57,3 +59,7 @@ Every learn-to-code template is still listed as “Swift 5.8 Edition”, but at 
 ---
 
 It's unclear what took this update so long to arrive, but I'm glad it's finally here! It brings much-needed parity with Xcode, which will [allow me to start making my projects Playgrounds-compatible]({{< relref "2025-01-30 iPad coding wishlist 2025" >}}).
+
+---
+
+PS: I completely missed the major rebrand - “Swift Playgrounds” is now “Swift Playground”!
