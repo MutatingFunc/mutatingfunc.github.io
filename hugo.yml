@@ -8,9 +8,9 @@ params:
   mainSections:
     - blog
   homeInfoParams:
-    Title: "A blog by James"
+    Title: "A blog by Jamie"
     Content: |
-      Hi, I'm James! I write this blog and make a few [apps]({{< relref "apps" >}}).
+      Hi, I'm Jamie! I write this blog and make a few [apps]({{< relref "apps" >}}).
       
       If you'd like to get in touch, use the links below.
   socialIcons:

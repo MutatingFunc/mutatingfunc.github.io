@@ -1,5 +1,5 @@
 ---
-title: "James's Apps"
+title: "Jamie's Apps"
 url: "/apps/"
 excludeFromRSS: true
 ShowToc: true
