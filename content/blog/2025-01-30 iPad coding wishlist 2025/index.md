@@ -57,4 +57,4 @@ So, I've put together a quick wishlist for what I want to see come to the iPad, 
 
 ## See you in 2026!
 
-If I can check off even just the first half dozen points on this list this year, I'll be happily iPad-free for all my personal projects, not just IAP-free ones!
+If I can check off even just the first half dozen points on this list this year, I'll be happily iPad-only for all my personal projects, not just IAP-free ones!
